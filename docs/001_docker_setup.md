@@ -16,11 +16,11 @@ Docker Compose を使ってローカル開発環境を構築する。
 
 ## ToDo
 
-- [ ] `docker-compose.yml` を作成する
-- [ ] `docker/php/Dockerfile` を作成する（PHP-FPM + Composer）
-- [ ] `docker/nginx/default.conf` を作成する
+- [x] `docker-compose.yml` を作成する
+- [x] `docker/php/Dockerfile` を作成する（PHP-FPM + Composer）
+- [x] `docker/nginx/default.conf` を作成する
   - `/api/*` → PHP-FPM へプロキシ
   - その他 → Vite 開発サーバー（port 5173）へプロキシ
-- [ ] MySQL の初期データベース・ユーザー設定を環境変数で定義する
+- [x] MySQL の初期データベース・ユーザー設定を環境変数で定義する
 - [ ] `docker compose up -d` で全コンテナが起動することを確認する
 - [ ] 各コンテナ間の疎通確認（nginx → php、php → mysql）
