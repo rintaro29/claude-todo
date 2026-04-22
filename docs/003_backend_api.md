@@ -15,12 +15,12 @@
 
 ## ToDo
 
-- [ ] `app/Http/Controllers/TodoController.php` を作成する
-- [ ] `routes/api.php` にルーティングを定義する
-- [ ] `index` アクション — 全件取得して JSON を返す
-- [ ] `store` アクション — `title` を受け取り新規作成する（バリデーション含む）
-- [ ] `update` アクション — `is_completed` をトグルする
-- [ ] `destroy` アクション — 指定 ID を削除する
-- [ ] 存在しない ID へのアクセス時に 404 を返すことを確認する
-- [ ] CORS 設定を追加し、フロントエンド（port 5173）からのリクエストを許可する
-- [ ] `php artisan test` で各エンドポイントのテストが通ることを確認する
+- [x] `app/Http/Controllers/TodoController.php` を作成する
+- [x] `routes/api.php` にルーティングを定義する
+- [x] `index` アクション — 全件取得して JSON を返す
+- [x] `store` アクション — `title` を受け取り新規作成する（バリデーション含む）
+- [x] `update` アクション — `is_completed` をトグルする
+- [x] `destroy` アクション — 指定 ID を削除する
+- [x] 存在しない ID へのアクセス時に 404 を返すことを確認する
+- [x] CORS 設定を追加し、フロントエンド（port 5173）からのリクエストを許可する
+- [x] `php artisan test` で各エンドポイントのテストが通ることを確認する
